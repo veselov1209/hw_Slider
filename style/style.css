@@ -1,0 +1,52 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    background-color: rgb(131, 155, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+    max-height: 400px;
+}
+
+img {
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.imgText {
+    color: transparent;
+}
+
+.activeText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: -80px;
+    right: -40px;
+    transition: 1s;
+}
+
+.activeImage {  
+    width: 500px;
+    height: 380px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.img {
+    width: 100px;
+    height: 380px;
+    object-fit: cover;
+    transition:0.5s;
+}
+
